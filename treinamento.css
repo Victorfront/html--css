@@ -1,0 +1,53 @@
+body{
+    background-color: black
+}
+
+
+div{
+    background-color: white;
+    width: 290px;
+    height: 150px;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+
+table{
+    text-align: center;
+    border: 3px solid rgb(209, 207, 207);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+  
+
+}
+
+tr, td{
+    border: 1px solid black;
+    width: 150px;
+    height: 15px ;
+    
+
+}
+tr:nth-child(1){
+    background-color: rgb(155, 148, 148);
+}
+
+
+tr:nth-child(2){
+    background-color: rgb(134, 230, 105)
+}
+
+
+    tr:nth-last-child(2){
+        background-color: rgb(134, 230, 105)
+
+    }
